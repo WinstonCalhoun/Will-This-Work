@@ -1,0 +1,266 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.top-nav {
+    position: fixed;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    background-color: #392973;
+    color: white;
+    justify-content: space-between;
+}
+
+.top-left-navigation {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 30%;
+    padding: 0;
+    margin: 0;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+
+.main-page {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 100%;
+    height: 100%;
+    padding-left: 30px;
+    background-color: #efefef;
+}
+
+h1 {
+    width: 100%;
+    padding-left: 55px;
+    height: 70px;
+    margin: 0;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #efefef;
+}
+
+.full-card {
+    height: 400px;
+    width: 300px;
+    margin: 15px;
+    box-shadow: 10px 10px 5px 0px rgb(0 0 0 / 30%);
+}
+
+ul li{
+    list-style: none;
+}
+
+.menu-message,
+.video-message {
+    color: #060303;
+}
+
+.share-button,
+.menu-button,
+.video-button {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #b68080;
+}
+
+h4 {
+    margin-left: 10px;
+}
+
+.share-button {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.video-button {
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.admin-login-info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.admin-login-button {
+    background-color: #2b2b2b;
+    border: 0;
+}
+
+.admin-username {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #25b3fa;
+}
+
+.logo {
+    height: 110px;
+    width: 180px;
+}
+
+.top-card {
+    width: 100%;
+    height: 40%;
+}
+
+.bottom-card{
+    width: 100%;
+    background-color: #ffffff;
+    padding-top: 10px;
+    height: 57%;
+}
+
+.card-img1,
+.card-img2, 
+.card-img3,
+.card-img4,
+.card-img5,
+.card-img6 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.card-img1 {
+    background-image: url(assets/download.jpeg);
+    background-size: cover;
+}
+
+.card-img2 {
+    background-image: url(assets/One_Piece\,_Volume_61_Cover_\(Japanese\).jpg);
+    background-size: cover;
+}
+
+.card-img3 {
+    background-image: url(assets/Bleachanime.png);
+    background-size: cover;
+}
+
+.card-img4 {
+    background-image: url(assets/p9065121_b_h9_aa.jpg);
+    background-size: cover;
+}
+
+.card-img5 {
+    background-image: url(assets/MV5BNGM0YTk3MWEtN2JlZC00ZmZmLWIwMDktZTMxZGE5Zjc2MGExXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg);
+    background-size: cover;
+}
+
+.card-img6 {
+    background-image: url(assets/MV5BMjRlNTgwMWItYTAxMS00ODQ2LTlhOTMtOWRjMjlhYTQxNjlkXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UX1000_.jpg);
+    background-size: cover;
+}
+
+.card-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    width: 50px;
+}
+
+.share-arrow,
+.admin-dropdown {
+    cursor: pointer;
+}
+
+h2{
+    padding:0%;
+    margin: 0%;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+.button-container {
+    margin-top: 15px;
+    width: 20%;
+    display: flex;
+    border: 0;
+    margin-right: 73%;
+    background: 0;
+}
+
+.anime-name,
+.anime-info,
+.episode-number,
+.where-to-watch {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.votes,
+.vote-count {
+    color: #050505;
+    font-size: x-large;
+}
+
+
+.menu-list {
+    background-color: #2b2b2b;
+    border: 0;
+}
+
+.admin-login-button ul {
+    margin-top: 8px;
+}
+
+.admin-login-button li {
+    float:left;
+    padding:0px;
+    width:270px;
+}
+
+.admin-login-button li a {
+    line-height:36px;
+}
+
+.list-box {
+    width: 150px;
+}
+
+.admin-login-button li ul {
+    background:none;
+    display:none;
+    height:auto;
+    padding:0px;
+    margin:0px;
+    border:0px;
+    position:absolute;
+    width:241px;
+    z-index:201;
+}
